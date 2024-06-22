@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.express as px
-vehicle_df = pd.read_csv(r"C:\Users\lewis\OneDrive\Documents\WebAppProject\vehicles_us.csv")
+vehicle_df = pd.read_csv("\vehicles_us.csv")
 st.header('Used Car Market')
 types = vehicle_df['type'].unique()
 st.write('Select Vehicle Type')
